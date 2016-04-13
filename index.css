@@ -1,0 +1,369 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,100);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.firstPage {
+  color: #fafafa;
+  text-align: center;
+}
+
+.firstPage h1 {
+  margin-top: 50px;
+  font-weight: 100;
+  font-size: 5em;
+}
+
+.firstPage img {
+  opacity: 0;
+}
+
+.continue {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.continue i {
+  cursor: pointer;
+}
+
+.briefPresentation {
+  background-image: url('./tootb3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.briefPresentation h1 {
+  color: #2196F3;
+  font-weight: 100;
+  margin-top: -50px;
+}
+
+.briefPresentation p {
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 80%;
+  color: #fafafa;
+}
+
+.workPresentation h1 {
+  color: #fafafa;
+  font-size: 4em;
+  font-weight: 100;
+  margin-top: -50px;
+}
+
+.workPresentation h2 {
+  color: #fafafa;
+  font-size: 3em;
+  font-weight: 100;
+  margin-top: -50px;
+}
+
+.workPresentation p {
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 80%;
+  color: #fafafa;
+  font-weight: 300;
+}
+
+.workPresentation ul {
+  margin-top: 40px;
+  color: #fafafa;
+  font-weight: 300;
+}
+
+.develPresentation h1 {
+  color: #2196F3;
+  font-size: 4em;
+  font-weight: 100;
+  margin-top: -50px;
+}
+
+.develPresentation h2 {
+  color: #2196F3;
+  font-size: 3em;
+  font-weight: 100;
+  margin-top: -50px;
+}
+
+.develPresentation p {
+  margin-top: 40px;
+  margin-left: 7%;
+  width: 86%;
+  color: #616161;
+  font-weight: 300;
+}
+
+.develPresentation .code {
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #656565;
+  color: #e0e0e0;
+  font-family: 'Droid Sans Mono', serif;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.studyPresentation {
+  background-image: url('./uni.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.studyPresentation h1 {
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: 100;
+  margin-top: -50px;
+}
+
+.studyPresentation p {
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 80%;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.socialPresentation h1 {
+  color: #2196F3;
+  font-size: 4em;
+  font-weight: 100;
+  margin-top: -50px;
+}
+
+.socialPresentation .wrapper {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.socialEle {
+  margin-top: 5%;
+  display: inline-block;
+  width: 30%;
+  opacity: 0;
+}
+
+.socialEle a {
+  color: #1E88E5;
+}
+
+.socialEle a:hover {
+  color: #2196F3;
+}
+
+.copyright {
+  font-size: 1.1em;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.briefPresentation, .workPresentation, .develPresentation, .studyPresentation, .socialPresentation {
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+@keyframes typeBar {
+  0% {
+    color: #656565;
+  }
+  50% {
+    color: #2196F3;
+  }
+  100% {
+    color: #656565;
+  }
+}
+
+.type {
+  animation-name: typeBar;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+.studyPresentation p a:link, .studyPresentation p a:visited, .studyPresentation p a:hover, .studyPresentation p a:active, .workPresentation p a:link, .workPresentation p a:visited, .workPresentation p a:hover, .workPresentation p a:active {
+  color: #FFF59D;
+}
+
+.develPresentation p a:link, .develPresentation p a:visited, .develPresentation p a:hover, .develPresentation p a:active {
+  color: #2196F3;
+}
+
+.fp-controlArrow {
+  top: 90%;
+}
+
+.workPresentation .fp-controlArrow.fp-prev {
+  border-width: 28.5px 24px 28.5px 0;
+  border-color: transparent #fafafa transparent transparent;
+}
+
+.workPresentation .fp-controlArrow.fp-next {
+  border-width: 28.5px 0 28.5px 24px;
+  border-color: transparent transparent transparent #fafafa;
+}
+
+.develPresentation .fp-controlArrow.fp-prev {
+  border-width: 28.5px 24px 28.5px 0;
+  border-color: transparent #2196F3 transparent transparent;
+}
+
+.develPresentation .fp-controlArrow.fp-next {
+  border-width: 28.5px 0 28.5px 24px;
+  border-color: transparent transparent transparent #2196F3;
+}
+
+
+/* Small screens */
+
+@media (max-width: 600px) {
+  html, body {
+    font-size: 12px;
+  }
+  .firstPage img {
+    width: 200px;
+    height: 200px;
+  }
+  .briefPresentation h1 {
+    font-size: 4em;
+  }
+  .briefPresentation p {
+    font-size: 1.3em;
+    font-weight: 300;
+    text-align: left;
+    line-height: 25px;
+  }
+  .workPresentation p {
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 25px;
+  }
+  .workPresentation ul {
+    margin-left: -4%;
+    font-size: 1.2em;
+    text-align: left;
+    line-height: 30px;
+  }
+  .develPresentation p {
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 25px;
+  }
+  .develPresentation .code {
+    margin-left: 3.5%;
+    width: 90%;
+  }
+  .studyPresentation p {
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 25px;
+  }
+}
+
+
+/* Medium screens */
+
+@media (max-width: 992px) and (min-width: 601px) {
+  html, body {
+    font-size: 14px;
+  }
+  .firstPage img {
+    width: 250px;
+    height: 250px;
+  }
+  .briefPresentation h1 {
+    font-size: 4em;
+  }
+  .briefPresentation p {
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  .workPresentation p {
+    font-size: 1.3em;
+    line-height: 25px;
+  }
+  .workPresentation ul {
+    margin-left: 30%;
+    width: 50%;
+    font-weight: 300;
+    text-align: left;
+    line-height: 30px;
+  }
+  .develPresentation p {
+    font-size: 1.3em;
+    line-height: 30px;
+  }
+  .develPresentation .code {
+    margin-left: 3.5%;
+    width: 90%;
+  }
+  .studyPresentation p {
+    font-size: 1.3em;
+    line-height: 30px;
+  }
+}
+
+
+/* Large screens */
+
+@media (min-width: 993px) {
+  html, body {
+    font-size: 16px;
+  }
+  .firstPage img {
+    width: 300px;
+    height: 300px;
+  }
+  .briefPresentation h1 {
+    font-size: 5em;
+  }
+  .briefPresentation p {
+    font-size: 1.4em;
+    font-weight: 100;
+    line-height: 35px;
+    letter-spacing: 2px;
+  }
+  .workPresentation p {
+    font-size: 1.4em;
+    line-height: 35px;
+  }
+  .workPresentation ul {
+    margin-left: 35%;
+    width: 50%;
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 40px;
+  }
+  .develPresentation p {
+    font-size: 1.4em;
+    line-height: 35px;
+  }
+  .develPresentation .code {
+    margin-left: 14%;
+    width: 72%;
+  }
+  .studyPresentation p {
+    font-size: 1.4em;
+    line-height: 35px;
+  }
+}

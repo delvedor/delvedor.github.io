@@ -59,37 +59,6 @@
         <br/>my main focus is on Javascript and Node.js technologies.
         <br/>I'm passionate about Technology, Design and Cinema.</p>
     </div>
-    <div class="section workPresentation">
-      <div class="slide">
-        <h1>Work</h1>
-        <p>I work as a Camera Operator and Multimedia Technician at <a href="http://www.entract.it/" target="_blank">Entract Multimedia,</a>
-          <br/>so I usually work in theaters, cinemas and conferences.</p>
-      </div>
-      <div class="slide">
-        <h2><i class="fa fa-laptop"></i> Congress</h2>
-        <ul>
-          <li><i class="fa fa-angle-right"></i> National Conference AME (2012 - 2015)</li>
-          <li><i class="fa fa-angle-right"></i> National Conference SIO (2013)</li>
-          <li><i class="fa fa-angle-right"></i> National Meeting STAT (2013 - 2016)</li>
-          <li><i class="fa fa-angle-right"></i> Glaucoma (2013 - 2015)</li>
-          <li><i class="fa fa-angle-right"></i> Thyroid Up To Date (2013 - 2015)</li>
-          <li><i class="fa fa-angle-right"></i> Confindustria Udine (2014)</li>
-          <li><i class="fa fa-angle-right"></i> Camera di Commercio Udine (2013 - 2015)</li>
-        </ul>
-      </div>
-      <div class="slide">
-        <h2><i class="fa fa-video-camera"></i> Events</h2>
-        <ul>
-          <li><i class="fa fa-angle-right"></i> Vicino/Lontano (2011- 2016)</li>
-          <li><i class="fa fa-angle-right"></i> Far East Film Festival (2012 - 2016)</li>
-          <li><i class="fa fa-angle-right"></i> Mittelfest (2009-2016)</li>
-          <li><i class="fa fa-angle-right"></i> Confindustria Udine (2014)</li>
-          <li><i class="fa fa-angle-right"></i> Camera di Commercio Udine (2013 - 2015)</li>
-          <li><i class="fa fa-angle-right"></i> Premio Nonino (2013 - 2016)</li>
-          <li><i class="fa fa-angle-right"></i> Global Forum Trieste (2013)</li>
-        </ul>
-      </div>
-    </div>
     <div class="section develPresentation">
       <div class="slide">
         <h1>Development</h1>
@@ -97,15 +66,16 @@
           <br/>
           <span style="color:#B39DDB">let</span> skills = [<span style="color:#66BB6A">'JavaScript'</span>, <span style="color:#66BB6A">'Node.js'</span>, <span style="color:#66BB6A">'XML'</span>, <span style="color:#66BB6A">'CSS'</span>, <span style="color:#66BB6A">'HTML'</span>,
           <span style="color:#66BB6A">'Java'</span>, <span style="color:#66BB6A">'Meteor'</span>, <span style="color:#66BB6A">'Cordova'</span>, <span style="color:#66BB6A">'Angular'</span>, <span style="color:#66BB6A">'Ionic'</span>, <span style="color:#66BB6A">'WordPress'</span>, <span style="color:#66BB6A">'Python'</span>, <span style="color:#66BB6A">'PHP'</span>]
-          <br/>skills.map((<span style="color:#FFA726">skill</span>)<span style="color:#B39DDB"> =></span> {
+          <br/>skills.forEach(<span style="color:#FFA726">skill</span><span style="color:#B39DDB"> =></span> {
           <br/>&nbsp;&nbsp;delvedor.<span style="color:#B39DDB">addSkill</span>(<span style="color:#FFA726">skill</span>)
           <br/>})<span class="type">|</span>
         </p>
       </div>
       <div class="slide">
         <h2><i class="fa fa-code"></i> Tyval</h2>
-        <p>Tyval is an extensible validator for JavaScript,
-          <br/>highly inspired from Joi, it provides a lot of fast and useful validation functions, with a self-descriptive name.
+        <p>Tyval is a validator for JavaScript, focused on performances and extensibility.
+          <br/>The API is highly inspired from Joi, but the implementation is very different.
+          <br/>Tyval uses code generation to achieve maximum speed when evaluating a variable.
           <br/>You can find the code <a href="https://github.com/delvedor/Tyval" target="_blank">here.</a></p>
       </div>
       <div class="slide">
@@ -158,7 +128,38 @@
           <br/> It includes a chat, speakers and attendees list and an integration with the TimerOSD.</p>
       </div>
     </div>
-    <div class="section studyPresentation">
+    <div class="section workPresentation">
+      <div class="slide">
+        <h1>Work</h1>
+        <p>I work as a Camera Operator and Multimedia Technician at <a href="http://www.entract.it/" target="_blank">Entract Multimedia,</a>
+          <br/>so I usually work in theaters, cinemas and conferences.</p>
+      </div>
+      <div class="slide">
+        <h2><i class="fa fa-laptop"></i> Congress</h2>
+        <ul>
+          <li><i class="fa fa-angle-right"></i> National Conference AME (2012 - 2015)</li>
+          <li><i class="fa fa-angle-right"></i> National Conference SIO (2013)</li>
+          <li><i class="fa fa-angle-right"></i> National Meeting STAT (2013 - 2016)</li>
+          <li><i class="fa fa-angle-right"></i> Glaucoma (2013 - 2015)</li>
+          <li><i class="fa fa-angle-right"></i> Thyroid Up To Date (2013 - 2015)</li>
+          <li><i class="fa fa-angle-right"></i> Confindustria Udine (2014)</li>
+          <li><i class="fa fa-angle-right"></i> Camera di Commercio Udine (2013 - 2015)</li>
+        </ul>
+      </div>
+      <div class="slide">
+        <h2><i class="fa fa-video-camera"></i> Events</h2>
+        <ul>
+          <li><i class="fa fa-angle-right"></i> Vicino/Lontano (2011- 2016)</li>
+          <li><i class="fa fa-angle-right"></i> Far East Film Festival (2012 - 2016)</li>
+          <li><i class="fa fa-angle-right"></i> Mittelfest (2009-2016)</li>
+          <li><i class="fa fa-angle-right"></i> Confindustria Udine (2014)</li>
+          <li><i class="fa fa-angle-right"></i> Camera di Commercio Udine (2013 - 2015)</li>
+          <li><i class="fa fa-angle-right"></i> Premio Nonino (2013 - 2016)</li>
+          <li><i class="fa fa-angle-right"></i> Global Forum Trieste (2013)</li>
+        </ul>
+      </div>
+   </div>
+   <div class="section studyPresentation">
       <h1>Study</h1>
       <p>I’m a university student at <a href="http://www.uniud.it/it" target="_blank">University of Udine</a> and I’m studying Web Technologies.
         <br/>
@@ -185,7 +186,7 @@
       $('#fullpage').fullpage({
         controlArrows: true,
         verticalCentered: true,
-        sectionsColor: ['#2196F3', '#fafafa', '#0097A7', '#fafafa', '#607D8B', '#fafafa'],
+        sectionsColor: ['#2196F3', '#fafafa', '#fafafa', '#0097A7', '#607D8B', '#fafafa'],
         anchors: ['front', 'brief', 'work', 'devel', 'study', 'social'],
 
         afterLoad: function(anchorLink, index) {

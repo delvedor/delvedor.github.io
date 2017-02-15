@@ -284,6 +284,9 @@ a:link, a:visited, a:hover, a:active {
     text-align: left;
     line-height: 25px;
   }
+  .hide-small-screen {
+    display: none;
+  }
 }
 
 
@@ -327,6 +330,9 @@ a:link, a:visited, a:hover, a:active {
   .studyPresentation p {
     font-size: 1.3em;
     line-height: 30px;
+  }
+  .hide-small-screen {
+    display: block;
   }
 }
 
@@ -372,5 +378,8 @@ a:link, a:visited, a:hover, a:active {
   .studyPresentation p {
     font-size: 1.4em;
     line-height: 35px;
+  }
+  .hide-small-screen {
+    display: block;
   }
 }

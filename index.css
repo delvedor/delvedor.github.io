@@ -51,6 +51,13 @@ html, body {
   color: #fafafa;
 }
 
+.workPresentation {
+  background-image: url('./entract.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .workPresentation h1 {
   color: #fafafa;
   font-size: 4em;

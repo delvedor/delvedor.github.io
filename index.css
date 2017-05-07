@@ -175,6 +175,7 @@ html, body {
   bottom: 5px;
   width: 100%;
   text-align: center;
+  line-height: 30px;
 }
 
 .briefPresentation, .workPresentation, .develPresentation, .studyPresentation, .socialPresentation {

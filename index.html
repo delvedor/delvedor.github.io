@@ -1,132 +1,37 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-  <meta name="description" content="I'm a Full Stack Developer and Software Engineer from Udine, Italy">
-  <meta name="keywords" content="Web Developer, Full Stack Developer, Software Engineer, Camera Operator, Cinema, delvedor">
-  <meta name="author" content="Tomas Della Vedova - @delvedor">
-  <link href="https://plus.google.com/+TomasDellaVedova" rel="author">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.7/jquery.fullPage.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="index.css">
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-50631919-1', 'auto');
-    ga('set', 'anonymizeIp', true);
-    ga('send', 'pageview');
-  </script>
-  <title>Delvedor</title>
-  <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-  <script type="text/javascript">
-    window.cookieconsent_options = {
-      "message": "This website uses cookies to ensure you get the best experience on our website",
-      "dismiss": "Got it!",
-      "learnMore": "More info",
-      "link": "https://www.iubenda.com/privacy-policy/191421/legal",
-      "theme": "light-bottom"
-    };
-  </script>
-
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
-  <!-- End Cookie Consent plugin -->
-
-</head>
-
-<body>
-  <div id="fullpage">
-    <div class="section firstPage">
-      <img src="logo.png" alt="logo" />
-      <h1>delvedor</h1>
-      <p class="continue"><i class="fa fa-angle-down fa-3x" onclick="$.fn.fullpage.moveSectionDown()"></i></p>
-    </div>
-    <div class="section briefPresentation">
-      <h1>About Me</h1>
-      <p>Hi, I'm Tomas Della Vedova, aka delvedor.
-        <br/>
-        <br/>I'm a software engineer based in Italy,
-        <br/>my main focus is on Javascript and Node.js technologies.
-        <br/>I'm passionate about Technology, Design and Cinema.</p>
-    </div>
-    <div class="section develPresentation">
-      <h1>Code</h1>
-      <p class="hide-small-screen">I am an enthusiastic software engineer, who spend most of his time programming in Javascript and Node.js.
-      <br/>I am constantly forward the enrichment of my knowledge and the exploration of new technologies.
-      <br/>Moreover, I truly believe in the Open Source philosophy.</p>
-      <p class="code">
-        // Click on the project's name!<br/>
-        <span style="color:#B39DDB">const</span> projects = [<a href="https://github.com/fastify/fastify" target="_blank"  style="color:#66BB6A">'Fastify'</a>, <a href="https://github.com/delvedor/find-my-way" target="_blank"  style="color:#66BB6A">'find-my-way'</a>,  <a href="https://github.com/delvedor/shape-of-q" target="_blank"  style="color:#66BB6A">'shape-of-q'</a>, <a href="https://github.com/upringjs/upring" target="_blank"  style="color:#66BB6A">'upring'</a>, <a href="https://github.com/delvedor/Tyval" target="_blank"  style="color:#66BB6A">'Tyval'</a>, <a href="https://github.com/delvedor/electron-is" target="_blank"  style="color:#66BB6A">'electron-is'</a>, <a href="https://github.com/fastify/fast-json-stringify" target="_blank"  style="color:#66BB6A">'fast-json-stringify'</a>, <a href="https://github.com/nodejs/installer" target="_blank"  style="color:#66BB6A">'Node.js Installer'</a>, <a href="https://github.com/delvedor/cute-socket" target="_blank"  style="color:#66BB6A">'cute-socket'</a>, <a href="https://github.com/delvedor/dom.js" target="_blank"  style="color:#66BB6A">'dom.js'</a>, <a href="https://github.com/atom/go-to-line" target="_blank"  style="color:#66BB6A">'go-to-line'</a>, <a href="https://github.com/delvedor/Microservices" target="_blank"  style="color:#66BB6A">'Microservices'</a>, <a href="https://github.com/delvedor/FileFactory" target="_blank"  style="color:#66BB6A">'FileFactory'</a>, <a href="https://github.com/delvedor/appversion" target="_blank"  style="color:#66BB6A">'appversion'</a>, <a href="https://github.com/delvedor/electron-screen" target="_blank"  style="color:#66BB6A">'electron-screen'</a>, <a href="https://github.com/mcollina/avvio" target="_blank"  style="color:#66BB6A">'Avvio'</a>, <a href="https://github.com/delvedor/self-stream" target="_blank"  style="color:#66BB6A">'self-stream'</a>, <span style="color:#66BB6A">'</span><span class="type">|</span><span style="color:#66BB6A">'</span>]
-        <br/>projects.forEach(<span style="color:#FFA726">project</span><span style="color:#B39DDB"> =></span> {
-        <br/>&nbsp;&nbsp;project.<span style="color:#B39DDB">remove</span>(<span style="color:#66BB6A">'bug'</span>)
-        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<span style="color:#B39DDB">add</span>(<span style="color:#66BB6A">'feature'</span>)
-        <br/>})
-      </p>
-    </div>
-    <!-- <div class="section workPresentation">
-      <h1>Entract</h1>
-      <p>I also work as Camera Operator and Multimedia Technician at <a href="http://www.entract.it/" target="_blank">Entract Multimedia</a>,
-      <br/>so I usually work in theaters, cinemas and conferences.
-      <br/>
-      <br/>I've developed some software solution to handle different situations and needs of the clients,
-      <br/>such as a on-screen, socket controlled timer, a distributed LAN chat and a real time access management.</p>
-    </div> -->
-   <div class="section studyPresentation">
-      <h1>Study</h1>
-        <p>I graduated at the <a href="http://www.uniud.it" target="_blank">University of Udine</a> in Web and Multimedia Technologies,
-        <br/>with a thesis on "Microservices Oriented Architectures".
-        <br/>
-        <br/>I have attended an <a href="http://www.chalmers.se/en/Pages/default.aspx" target="_blank">Erasmus</a> in Göteborg, Sweden,
-        <br/>where I've studied Human Computer Interaction and Computer Security.</p>
-    </div>
-    <div class="section socialPresentation">
-      <h1>Get in touch</h1>
-      <div class="wrapper">
-        <div class="socialEle"><a href="https://twitter.com/delvedor" target="_blank"><i class="fa fa-twitter fa-4x"></i></a></div>
-        <div class="socialEle"><a href="https://www.facebook.com/tomas.dellavedova.902" target="_blank"><i class="fa fa-facebook fa-4x"></i></a></div>
-        <div class="socialEle"><a href="https://www.linkedin.com/in/tomas-della-vedova/" target="_blank"><i class="fa fa-linkedin fa-4x"></i></a></div>
-        <div class="socialEle"><a href="https://github.com/delvedor" target="_blank"><i class="fa fa-github fa-4x"></i></a></div>
-        <div class="socialEle"><a href="https://plus.google.com/+TomasDellaVedova/posts" target="_blank"><i class="fa fa-google-plus fa-4x"></i></a></div>
-        <div class="socialEle"><a href="http://it.pinterest.com/delvedor/" target="_blank"><i class="fa fa-pinterest fa-4x"></i></a></div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="author" content="Tomas Dela Vedova"/>
+    <meta name="description" content="Tomas Della Vedova is a Software Engineer."/>
+    <meta name="keywords"  content="delvedor, tomas, della vedova, tomas della vedova, node.js, javascript, fastify, elastic"/>
+    <meta name="Resource-type" content="Document"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>delvedor</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Raleway" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>
+      <div class="text">
+        <div class="animate">Tomas</div>
       </div>
-      <p class="copyright">p.iva/VAT 02886280300<br/>©2018 Tomas Della Vedova</p>
+      <div class="text">
+        <div class="animate delay">Della Vedova</div>
+      </div>
+    </h1>
+    <div class="about">
+      <h2>«If you are the smartest person in the room, then you are in the wrong room.»</h2>
+
+      <p>I'm an enthusiastic software engineer, who spend most of his time programming in Javascript and Node.js. I'm constantly forward the enrichment of my knowledge and the exploration of new technologies. Moreover, I truly believe in the Open Source philosophy and I will always be passionate about technology, design, music, and cinema.</p>
+      <p>Currently, I'm working at <a href="https://elastic.co" target="_blank">Elastic</a>, the company behind Elasticsearch, Kibana, Beats and Logstash, as Software Engineer in the Clients teams, and I'm focusing on the JavaScript client.</p>
+      <p>I contribute a lot also in various Open Source projects, the one that I'm most proud of is <a href="https://www.fastify.io/" target="_blank">Fastify</a>, a speedy web framework for Node.js. Another noteworthy project is find-my-way, an HTTP router used by Fastify and Restify, the web framework used by Netflix!
+      You can find all my Open Source work in my <a href="https://github.com/delvedor" target="_blank">GitHub</a> account.</p>
+      <p>I enjoy speaking at conferences, in the past years I've spoken at FullStackCon in London, Nordic.js in Stockholm, Codemotion in Milan, WebExpo in Prague and other amazing conferences and meetups around Europe.</p>
+
+      <p>If you want to contact me, drop me a message on <a href="https://twitter.com/delvedor" target="_blank">Twitter</a> or <a href="https://www.linkedin.com/in/tomas-della-vedova/" target="_blank">LinkedIn</a>, and you can find me almost everywhere as <b>@delvedor</b>.</p>
     </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.7/jquery.fullPage.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('#fullpage').fullpage({
-        controlArrows: true,
-        verticalCentered: true,
-        sectionsColor: ['#2196F3', '#fafafa', '#fafafa', /* '#0097A7', */ '#607D8B', '#fafafa'],
-        anchors: ['front', 'brief', 'code', /* 'entract', */ 'study', 'social'],
-
-        afterLoad: function(anchorLink, index) {
-          if (anchorLink === 'social') {
-            $('.socialEle:nth-child(1)').fadeTo(1000, 1)
-            $('.socialEle:nth-child(2)').delay(300).fadeTo(1000, 1)
-            $('.socialEle:nth-child(3)').delay(100).fadeTo(1000, 1)
-            $('.socialEle:nth-child(4)').delay(500).fadeTo(1000, 1)
-            $('.socialEle:nth-child(5)').delay(200).fadeTo(1000, 1)
-            $('.socialEle:nth-child(6)').delay(400).fadeTo(1000, 1)
-          }
-        }
-      })
-      $('.firstPage img').fadeTo(1200, 1)
-    })
-  </script>
-</body>
-
+  </body>
 </html>
+

@@ -146,22 +146,28 @@ a:visited {
 	color: #fff
 }
 
-h1 {
-	font-size: 60px;
-	font-size: 4.5vw;
-	letter-spacing: -2px;
-	line-height: 110%;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-	position: fixed;
-	top: 34%;
-	left: 10%
+.intro {
+	text-align: center;
+}
+
+.intro, .about {
+	float: left;
+	width: 50%;
+	padding: 5%;
+	box-sizing: border-box;
 }
 
 .text {
 	position: relative;
 	display: block;
 	overflow: hidden
+}
+
+.picture {
+	border-radius: 50%;
+	width: 20vw;
+	height: auto;
+	margin-bottom: 30px;
 }
 
 .animate {
@@ -196,12 +202,13 @@ h1 {
 	animation-delay: .3
 }
 
-.about {
-	position: absolute;
-	top: 34%;
-	left: 52%;
-	right: 10%;
-	padding-bottom: 34vh
+h1 {
+	font-size: 30px;
+	font-size: 3vw;
+	letter-spacing: -2px;
+	line-height: 110%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
 h2 {
@@ -235,7 +242,7 @@ b {
 @media screen and (max-width:667px) {
 	h1 {
 		font-size: 68px;
-		font-size: 18vw
+		font-size: 10vw
 	}
 	h2 {
 		font-size: 24px;
@@ -245,10 +252,11 @@ b {
 		font-size: 18px;
 		font-size: 4.8vw
 	}
-	.about {
-		left: 0;
-		right: 0;
-		background: #fff;
-		padding: 10%;
+	.intro, .about {
+		clear: both;
+		width: 100%;
+	}
+	.picture {
+		width: 80vw;
 	}
 }
